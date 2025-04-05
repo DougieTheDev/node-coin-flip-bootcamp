@@ -1,16 +1,18 @@
-document.querySelector('button').addEventListener('click', coinFlip);
-
 function coinFlip(){
     makeReq();
 }
 
+
 function makeReq() {
 
-    fetch(`/coinFlipGameApi`)
+    fetch(`/`)
         .then(res => res.json())
         .then((data) => {
             console.log(data);
-            document.querySelector('p').textContent = data.result;
+            document.querySelector('#result').textContent = data.result;
         })
         .catch(err => console.log('Fetch error', err));
 }
+
+
+

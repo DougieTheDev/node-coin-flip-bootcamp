@@ -8,10 +8,11 @@
 
 <body>
     <h1>Flip a Coin!</h1>
-    <button onclick="coinFlip()">Flip</button>
+    <button>Flip</button>
     <p id="result"></p>
 
-    <script>
+    <script> 
+        document.querySelector('button').addEventListener('click', coinFlip)
         async function coinFlip() {
             try {
                 const res = await fetch('/coinFlipGameApi');
@@ -23,12 +24,6 @@
                 document.getElementById('result').textContent = "Error flipping coin.";
             }
         }
-
-    </script>
-
-
-
     </script>
 </body>
-
 </html>
