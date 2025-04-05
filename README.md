@@ -5,7 +5,7 @@
 I completed the challenge: 5<br>
 I feel good about my code: 3.9<br>
 
-//  i know how i got it functioning but i cant tell you exactly why it does. i attempted 
-//  to not include any js on html side beside in the script. i added an event listener in my 
-//  main.js but it would not run unless i included onclick as a property and the coinFlip 
-//  function as a value.
+i know how i got it functioning but i cant tell you exactly why it does. i attempted<br>
+to not include any js on html side beside in the script. i added an event listener in my<br> 
+main.js but it would not run unless i included onclick as a property and the coinFlip<br>
+function as a value.
